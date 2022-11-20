@@ -9,7 +9,10 @@ cd   - going to desired directory
 Git Commands
 -----------------------------------
 git clone <yourURL>
-
+git status
+git add .
+git commint -m 'YourCommentHere'
+git push
 -----------------------------------
 JAVA Commands
 -----------------------------------

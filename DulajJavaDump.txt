@@ -1,0 +1,177 @@
+Dulaj Java Dump
+==================
+DOS Commands
+------------------------------------
+cd/  - going to root C:\>
+cd.. - going back one step
+cd   - going to desired directory
+-----------------------------------
+Git Commands
+-----------------------------------
+git clone <yourURL>
+
+-----------------------------------
+JAVA Commands
+-----------------------------------
+javac - to compile your .java file
+java  - to run your class file (.class extension not to be typed).
+-----------------------------------
+Java Syntax
+=============
+public class prog1{
+public static void main(String args[]){
+System.out.println("Hello !");
+}
+}
+---------------------------------------------
+public class prog6{
+public static void main(String args[]){
+System.out.println("Day After Tomorrow");
+}
+}
+----------------------------------------------
+public class prog8{
+public static void main(String args[]){
+prntMsg();
+}
+public static void prntMsg(){
+System.out.println("Hello from method prntMsg");
+}
+}
+-------------------------------------------------
+public class prog9{
+public static void main(String args[]){
+String strmsg = "Hello String";
+prntMsg(strmsg);
+
+}
+public static void prntMsg(String strvalue){
+System.out.println(strvalue);
+}
+}
+----------------------------------------------------
+public class prog10{
+public static void main(String args[]){
+String strmsg = "Hello String";
+String strmsg2 = "Hello number Two";
+prntMsg(strmsg2 );
+
+}
+
+
+public static void prntMsg(String strvalue){
+System.out.println(strvalue);
+}
+}
+-----------------------------------------------------
+public class prog11{
+public static void main(String args[]){
+int count = 1;
+while (count <= 100){
+System.out.println(count);
+count++;
+}
+}
+}
+----------------------------------------------------------
+public class prog12{
+public static void main(String args[]){
+int count;
+for (count = 1; count <=100; count++){
+System.out.println(count);
+}
+}
+}
+----------------------------------------------------------
+
+import java.util.Scanner;
+public class prog13{
+public static void main(String args[]){
+Scanner sc=new Scanner(System.in);
+int radius=5;
+
+int areaOfCircle=(int)3.14f*radius*radius;
+System.out.println(areaOfCircle);
+}
+}
+-----------------------------------------------------------
+import java.util.Scanner;
+
+public class prog14{
+public static void main(String args[]){
+Scanner sc=new Scanner(System.in);
+System.out.println("input radius value");
+int radius=sc.nextInt();
+float PI=3.14f;
+float areaOfCircle=PI*radius*radius;
+System.out.println(areaOfCircle);
+}
+}
+-------------------------------------------------------------
+import java.util.Scanner;
+public class prog15{
+public static void main(String args[]){
+Scanner sc=new Scanner(System.in);
+System.out.println("Please Enter your Name :");
+String userName=sc.next();
+
+System.out.println("Welcome " + userName);
+}
+}
+-----------------------------------------------------------------
+import java.util.Scanner;
+public class prog16{
+public static void main(String args[]){
+Scanner sc=new Scanner(System.in);
+System.out.print("Please Enter your Name :");
+String userName=sc.next();
+
+Scanner sc2=new Scanner(System.in);
+System.out.print("Please enter your favourite number: ");
+int favNum=sc2.nextInt();
+
+System.out.println("===================== Program Output ===================================");
+System.out.println("Welcome " + userName);
+System.out.println("Your favourite Number is " + favNum);
+System.out.println("======================== END of Program =============================");
+}
+}
+-----------------------------------------------------------------------
+
+import java.util.Scanner;
+public class prog17{
+public static void main(String args[]){
+Scanner sc=new Scanner(System.in);
+System.out.print("Please Enter your Name :");
+String userName=sc.next();
+
+Scanner sc2=new Scanner(System.in);
+System.out.print("Please enter your age: ");
+int age=sc2.nextInt();
+
+
+System.out.println("Your Name " + userName);
+System.out.println("Your age " + age);
+
+}
+}
+-------------------------------------------------------------------------------
+
+import java.util.Scanner;
+public class prog17{
+public static void main(String args[]){
+Scanner sc=new Scanner(System.in);
+System.out.print("Please Enter your Name :");
+String userName=sc.next();
+
+Scanner sc2=new Scanner(System.in);
+System.out.print("Please enter your Age: ");
+double age=sc2.nextDouble();
+
+
+System.out.println("Your Name " + userName);
+System.out.println("Your Age " + age);
+
+}
+}
+----------------------------------------------------------------------------------
